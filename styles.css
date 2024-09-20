@@ -1,0 +1,145 @@
+/* global styles */
+/* Common styling */
+* {
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+  background-color: #34495e;
+}
+
+.sub-heading{
+  color: white;
+  padding-left: 150px;
+}
+
+/* header section starts */
+header{
+  background-color: #d0ebff;
+  box-shadow: 0 0 32px rgba(0,0,0, 0.5);
+  display: flex;
+  align-items: center;
+  padding: 18px 0 ;
+  justify-content: space-between;
+  padding: 18px 40px;
+}
+
+.title{
+  font-size: 24px;
+
+}
+
+.title-btn{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.reach-out-button{
+  border: none;
+  padding: 20px 30px;
+  background-color: #1c7ed6;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  font-size: 24px;
+}
+
+.call{
+  stroke: white;
+  fill: white;
+  width:20px;
+}
+
+nav a:link{
+  text-decoration: none;
+  padding-right: 18px;
+}
+nav a:hover{}
+nav a:visited{}
+nav a:active{
+  background-color: #c0392b;
+  color: #f1c40f;
+}
+/* header section ends  */
+
+/* introduction container starts*/
+.introduction-container{
+  background-color: #a5d8ff;
+  width: 1050px;
+  height: 330px;
+  margin: 20px auto;
+  position: relative;
+  margin-top: 150px;
+  border-radius: 50px;
+}
+
+.author-image{
+  width: 250px;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 12px 32px rgba(0,0,0, 0.3);
+}
+.detail-container{
+  padding-top: 150px;
+  text-align: center;
+}
+
+
+
+/* introduction container ends */
+
+/* projects container starts */
+
+.Projects-container{
+  width: 1050px;
+  margin: 20px auto;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+.Project{
+  background-color: #a5d8ff;
+width: 300px;
+border-radius: 30px;
+padding: 20px;
+}
+
+/* project container ends */
+
+/* table container start */
+.recommendation-container{
+  width: 1050px;
+  background-color: #a5d8ff;
+  margin: 20px auto;
+  padding: 20px;
+border-radius: 30px;
+
+}
+
+
+thead th{
+  background-color: #1c7ed6 ;
+  border-radius: 30px;
+  color: white;
+  padding: 4px;
+}
+
+td,th{
+padding: 10px;
+}
+
+tr:nth-child(even) td,tr:nth-child(even) th{
+  background-color: #d0ebff;
+  border-radius: 30px;
+
+}
+
+/* table container ends */
