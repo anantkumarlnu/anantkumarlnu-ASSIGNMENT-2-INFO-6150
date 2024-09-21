@@ -21,12 +21,17 @@ Going of the similar structure that I followed for the first assignment, I'll li
 - mailto for contact information - in the footer
 - Use an external CSS file only. - have implemented this.
 - Use of float and overflow property - float has been used to implement the column layout for the discover bar that acts as a navigation for the page, overflow has been used for the referral table.
+
 -Use of column layout structure -  implemented for the web design of the page
 -Use of absolute and relative position whenever necessary - used for placement of the image for all views and also used for ipad navigation 
 -Add a table, then style the table using CSS selectors. Guide for CSS Selectors - http://www.w3schools.com/cssref/css_selectors.aspLinks to an external site. - table has been implemented for the referral section
+
 -Create a professional image gallery for certifications, etc., with hover effects and figure captions. Include this in your portfolio. - dummy certifications were created in pages and those were used since I do not have any certifications. All my certifications belong to the company that I used to work for, bummer, ik ik. 
+
 -Make the website responsive using media queries for devices like iPad(768px) and Smartphones (350 – 365px). - implemented the same, more explanation below
+
 Include the readme.txt/readme.md file and include all the tags used and give a short description - implemented 
+
 The assignment must be submitted on your PRIVATE GitHub account (use Northeastern email account). The zip file must be submitted on CANVAS, and the GitHub URL of the assignment must be in the canvas remarks. - will be done
 
 WEB LAYOUT DESCRIPTION --
