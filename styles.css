@@ -27,7 +27,9 @@ body{
     padding-top: 30px;
     padding-left: 10px;
   }
-
+.navigation-ipad{
+  display: none;
+}
   .navigation{
     margin-top: 30px;
     display: flex;
@@ -85,8 +87,7 @@ header{
   gap: 20px;
   align-items: center;
 }
-.reach-out-link a:link{
-}
+
 
 .reach-out-button{
   border: none;
@@ -156,6 +157,10 @@ nav a:active{
   gap: 50px;
   justify-content: space-between;
 }
+
+.Projects-container-ipad{
+  display: none;
+}
 .Project{
   background-color: #a5d8ff;
 width: 300px;
@@ -207,6 +212,9 @@ tr:nth-child(even) td,tr:nth-child(even) th{
   gap: 12.5px;
   margin-top: 20px;
   margin-bottom: 50px;
+}
+.certification-container-ipad{
+  display: none;
 }
 .certification{
   width: 250px;
@@ -340,3 +348,177 @@ footer a:active{
   color: white;
 }
 /* footer container ends */
+
+/* media queries for ipad start */
+@media (max-width: 768px)  {
+
+  /* header redo for ipad start */
+  header{
+    /* background-color: #d0ebff; */
+    /* box-shadow: 0 0 32px rgba(0,0,0, 0.5); */
+    /* display: flex; */
+    /* align-items: end; */
+    display: block;
+    padding: 18px 0 ;
+    justify-content: end;
+    padding: 18px 40px;
+    position: relative;
+  }
+  .navigation-ipad{
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom:18px;
+  }
+  
+  .title{
+    font-size: 12px;
+    color: #e3fafc;
+    font-weight: bold;
+  }
+  
+  .title-btn{
+    width: 100%;
+    margin: 20px 10px;
+    margin-bottom: 45px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .reach-out-button{
+    border: none;
+    padding: 20px 30px;
+    background-color: #1c7ed6;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 24px;
+    cursor: pointer;
+  
+  }
+  /* header redo for ipad end  */
+  /* … */
+  .icon{
+    display: none ;
+  }
+  .author-image{
+    border-radius: 70px;
+  }
+  .column-one{
+display: none;
+    }
+
+    .title{
+      font-size: 30px;
+      color: #34495e;
+      font-weight: bold;
+    }
+    
+    header{
+      background-color: #d0ebff;
+      box-shadow: 0 0 32px rgba(0,0,0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      padding: 0;
+    }
+    .introduction-container{
+      background-color: #a5d8ff;
+      width: 70%;
+      height: 430px;
+      margin: 20px auto;
+      position: relative;
+      margin-top: 130px;
+      border-radius: 50px;
+      padding: 10px;
+    }
+
+
+    /* all the containers */
+    .Projects-container{
+      display: none;
+    }
+
+    .Projects-container-ipad{
+      display: block;
+      display: flex;
+      width: 70%;
+      gap: 30px;
+      margin: 20px auto;
+      justify-content: space-around;
+    }
+
+    .Project{
+      background-color: #a5d8ff;
+    width: 45%;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .recommendation-container{
+      width: 76%;
+      background-color: #a5d8ff;
+      margin: 20px auto;
+      padding: 20px;
+    border-radius: 30px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    }
+
+    .certification-container{
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      gap: 12.5px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      display: none;
+    }
+    .certification-container-ipad{
+      width: 70%;
+      margin: 20px auto;
+      display: flex;
+      gap: 12.5px;
+    justify-content: center;   }
+    .comments-container{
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      gap: 12.5px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    justify-content: space-between;
+    background-color: #d0ebff;
+    border-radius: 50px;
+    padding:30px 30px;
+    }
+
+    .travel-container{
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      align-items: center;
+    justify-content: space-around;
+    /* border-radius: 30px; */
+    }
+
+    .footer-container{
+      background-color: #74c0fc;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* gap: 40px; */
+      padding-left: 10px;
+    }
+}
+
+/* media queries for ipad end */
