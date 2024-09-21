@@ -7,13 +7,13 @@ NUID - 002050375
 Going of the similar structure that I followed for the first assignment, I'll list out the core requirements and where they are covered in the assignment:
 Favicon - https://www.drawkit.com/illustrations/chubbs-character-illustrations an image from this collection was cropped and used for the favicon as it kind of matches the color tone of the website
 
-Table - 
-Form
+Table - implemented for the referrals section
+Form - implemented for the comments section
 Images - author image and maybe illustrations about work from the work from home collection 
-Hyperlink - in the nav
+Hyperlink - in the nav. in the floated column 
 Button - reachout button 
-audio - 'recommended soundtrack for viewing the page '
-video - recent trips section -- same border radius things and 
+audio - audio at the bottom of the page
+video - recent trips section -done
 header - the page has an header, explanation of implementation is below 
 footer - the page has an footer, explanation of implementation is below 
 summary - the intro portion below the image is written in the summary tag  
@@ -21,11 +21,11 @@ menu - cards will have list
 tel for contact information - reachout button 
 mailto for contact information - in the footer
 Use an external CSS file only. - have done
-Use of float and overflow property - overflow also not done .. will set a height limit and then add to make scroll bar for the table section 
-Use of column layout structure -  need to ask 
+Use of float and overflow property - float for web design columns and overflow for the table .. reduced height and then overflow-y scroll 
+Use of column layout structure -  implemented - for the float thing on the right 
 Use of absolute and relative position whenever necessary - done
 Add a table, then style the table using CSS selectors. Guide for CSS Selectors - http://www.w3schools.com/cssref/css_selectors.aspLinks to an external site. - done
-Create a professional image gallery for certifications, etc., with hover effects and figure captions. Include this in your portfolio. - need to ask
+Create a professional image gallery for certifications, etc., with hover effects and figure captions. Include this in your portfolio. - dummy certifcations created in pages and ss applied for the gallery section  
 Make the website responsive using media queries for devices like iPad(768px) and Smart phones (350 – 365px). For example, below pic is a sample (scroll down 2nd page) - will do
 There is more weightage on the responsiveness of the page and media query implementation. Fail to implement will be reflected in the grading.
 Include the readme.txt/readme.md file and include all the tags used and give a short description - in the thing so done 
@@ -69,4 +69,7 @@ Need to think about the following
  what is required for the column layout .. is it the 2 part thing where the left of the page has the navigation 
 
  have the audio file paly by default with minimal volume and have controls in the footer
- 
+
+
+ issues faced 
+ mov videos were getting rotated -- had to convert those to mp4 via online converter to get those to align straight 
